@@ -1,0 +1,48 @@
+:root{
+  --warna-utama: rgb(18, 77, 77);
+  --warna-kedua: darkcyan;
+}
+body{
+  background-color: var(--warna-utama);
+}
+main{
+  padding: 15px;
+  color: white;
+}
+.atas{
+  display: flex;
+  justify-content: center;
+}
+.perkenalan{
+  width: 500px;
+  padding: 10px;
+  text-align: justify;
+  border: 2px solid black;
+}
+.perkenalan > h1, h1{
+  text-align: center;
+}
+.perkenalan > p{
+  border: 2px solid var(--warna-utama);
+  padding: 5px;
+}
+.perkenalan > a{
+  display: flex;
+  justify-content: center;
+  background-color: var(--warna-kedua);
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  text-decoration: none;
+}
+.perkenalan > a:hover{
+  border: 2px solid cornflowerblue;
+}
+.tengah{
+display: flex;
+justify-content: center;
+}
+.jasa{
+  width: 500px;
+  text-align: justify;
+}
